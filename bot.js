@@ -7,25 +7,25 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'Who are you?') {
-    	message.comment.send("I'm Robin. I'm a tactician for the Shepherds, so let me know if you need a battle plan.");
+    	message.reply("I'm Robin. I'm a tactician for the Shepherds, so let me know if you need a battle plan.");
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'Who are you') {
-    	message.comment.send("I'm Robin. I'm a tactician for the Shepherds, so let me know if you need a battle plan.");
+    	message.reply("I'm Robin. I'm a tactician for the Shepherds, so let me know if you need a battle plan.");
   	}
 });
     
 client.on('message', message => {
     if (message.content === 'who are you') {
-    	message.comment.send("I'm Robin. I'm a tactician for the Shepherds, so let me know if you need a battle plan.");
+    	message.reply("I'm Robin. I'm a tactician for the Shepherds, so let me know if you need a battle plan.");
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'who are you?') {
-    	message.comment.send("I'm Robin. I'm a tactician for the Shepherds, so let me know if you need a battle plan.");
+    	message.reply("I'm Robin. I'm a tactician for the Shepherds, so let me know if you need a battle plan.");
   	}
 });
 

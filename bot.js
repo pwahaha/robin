@@ -56,7 +56,5 @@ client.on('message', message => {
   	}
 });
 
-client.User.setGame('with strategy');
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

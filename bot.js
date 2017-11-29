@@ -35,5 +35,26 @@ client.on('message', message => {
   	}
 });
 
+
+client.on('message', message => {
+    if (message.content === 'Robin is bad') {
+    	message.reply("no u");
+  	}
+});
+
+
+client.on('message', message => {
+    if (message.content === 'Robin is bad.') {
+    	message.reply("no u");
+  	}
+});
+
+
+client.on('message', message => {
+    if (message.content === 'robin is bad.') {
+    	message.reply("no u");
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

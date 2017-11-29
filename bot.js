@@ -15,14 +15,15 @@ var commands = {
 
 client.on('message', message => {
     if (message.content.substr(0, 1) !== '.') {
-        message.channel.send;
+        return;
     }
     for (var i in commands) {
         if (message.content === '.' + i) {
             break;
         }
     }
-    message.reply(i);
+    message.reply(commands[i]);
 });
+
 
 client.login(process.env.BOT_TOKEN);
